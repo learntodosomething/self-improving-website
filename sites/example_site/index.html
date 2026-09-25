@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Willow & Bloom Flower Shop</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="top">
+    <div class="logo">Willow & Bloom</div>
+    <div class="menu">
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+      <a href="http://cdn.example.com/old-catalog.pdf" target="_blank">Our catalog</a>
+    </div>
+  </div>
+
+  <div class="hero">
+    <h1>Fresh flowers, delivered same day</h1>
+    <img src="bouquet.jpg" onclick="highlight()">
+    <a href="#shop">click here</a> to see today's arrangements.
+  </div>
+
+  <div class="contact" id="contact">
+    <h2>Get in touch</h2>
+    <form method="get">
+      <input type="text" id="name-field" placeholder="Your name">
+      <label>Password for wholesale orders:</label>
+      <input type="password" id="wholesale-password">
+      <button onclick="submitForm()">Send</button>
+    </form>
+  </div>
+
+  <div class="footer">
+    <div>&copy; 2026 Willow & Bloom</div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
