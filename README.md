@@ -1,4 +1,4 @@
-# 🌱 Website RSI — Recursive Self-Improving Website Optimizer
+# Website RSI — Recursive Self-Improving Website Optimizer
 
 A local, LLM-driven loop that takes a static website (HTML/CSS/JS), and repeatedly proposes, tests, and accepts or rejects changes across three dimensions — **appearance**, **usability**, and **security** — while a **meta-improver** watches which kinds of changes actually pay off and adjusts its own strategy accordingly.
 
